@@ -50,7 +50,7 @@ This project is a [`cargo-generate`](https://github.com/cargo-generate/cargo-gen
 To create a new Bela project, run
 
 ```bash
-cargo generate --git https://github.com/l0calh05t/bela-template.git --name my-project
+cargo generate --git l0calh05t/bela-template --name my-project
 cd my-project
 ```
 
