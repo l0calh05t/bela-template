@@ -58,3 +58,8 @@ Then proceed with building using `cargo build` etc. as usual.
 To run tests (`cargo test`), benchmarks (`cargo bench`), or your new application (`cargo run` — since the Bela is very resource-constrained, you should typically add the `--release` flag), the Bela must be connected to your computer and available via the `bela.local` DNS name and have password-less root login enabled (both these settings are the default), so that the runner-script `runner.py` can access the Bela.
 
 For further usage examples, check out [the `examples`-folder in `bela-rs`](https://github.com/l0calh05t/bela-rs/tree/next/examples) (this template is based on `examples/hello.rs`).
+
+## License
+
+The template is licensed under the [MIT license](LICENSE-MIT) OR the [Apache License Version 2.0](LICENSE-APACHE).
+The `license` field has been omitted in `Cargo.toml` as projects based on this template can use any compatible license.
