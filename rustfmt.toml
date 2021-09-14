@@ -1,0 +1,1 @@
+# always specify rustfmt settings, even if they are all default (empty rustfmt.toml)

@@ -1,0 +1,7 @@
+[build]
+target = "armv7-unknown-linux-gnueabihf"
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-linux-gnueabihf-gcc"
+rustflags = ["-Ctarget-cpu=cortex-a8", "-Ctarget-feature=+neon"]
+runner = ["python", "runner.py"]
